@@ -1,0 +1,115 @@
+.main-page{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    height: 820px;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.main-container{
+    display: flex;
+    width: 700px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 10px 10px 5px 3px #5a5e7329;
+    background-color: #70748843;
+    flex-direction: column;
+    margin-top: 90px;
+
+}
+
+
+
+.profile-pic{
+    border-radius: 50%;
+    height: 150px
+}
+
+.greetings{
+    flex-basis: 100%;
+}
+
+.greetings p{
+    color: white;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 12px;
+    margin: 0;
+    margin-top: 12px;
+    line-height: 28px;
+
+}
+
+.intro-para{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: Montserrat;
+
+
+}
+
+.services-heading{
+    color: antiquewhite;
+    margin-top: 36px;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.services-list{
+    text-align: left;
+}
+
+
+.services-list li{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 0;
+}
+
+.contact-button{
+    padding: 6px;
+    background-color: rgba(49, 167, 49, 0.797);
+    border: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.contact-button:hover{
+    background-color: rgba(49, 167, 49, 0.598);
+}
+
+.contact-button:active{
+    background-color: rgba(49, 167, 49, 0.457);
+}
+
+.name{
+    color: #888470;
+}

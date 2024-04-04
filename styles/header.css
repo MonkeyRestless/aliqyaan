@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    height: 79px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+
+
+.left-section{
+    display: flex;
+
+}
+
+
+.logo{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding: 10px;
+    transition: color 0.2s;
+
+}
+
+.logo:hover{
+
+    color: rgb(77, 255, 162);
+
+}
+
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.middle-section button{
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    transition: color 0.2s;
+
+
+}
+
+.middle-section button:hover{
+    color: rgb(77, 255, 162);
+    text-decoration: underline; 
+}
+
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    width: 200px;
+
+}
+
+.right-section img{
+    filter: invert(100%) sepia(93%) saturate(4%) hue-rotate(253deg) brightness(107%) contrast(100%);
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    margin-top: 0px;
+    transition: height 0.2s;
+}
+
+
+.instagram-icon{
+    height: 35px;
+}
+
+.right-section img:hover{
+    height: 50px;
+}
